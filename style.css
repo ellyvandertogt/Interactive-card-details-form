@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    background: black;
+    color: whitesmoke;
+}
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-grayish-violet: hsl(270, 3%, 87%);
+    --Dark-grayish-violet: hsl(279, 6%, 55%);
+    --Very-dark-violet: hsl(278, 68%, 11%);
+    --Linear-gradient: (to right, ): hsl(249, 99%, 64%) to hsl(278, 94%, 30%); /*??????*/
+    --Red: (input errors): hsl(0, 100%, 66%); /*????*/
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+}
+
+/* .container .left {
+    width: 30%;
+    height: 90%;
+    background: red; */
+    /* background: linear-gradient(to top hsl(249, 99%, 64%) to hsl(278, 94%, 30%)); */
+/* } */
